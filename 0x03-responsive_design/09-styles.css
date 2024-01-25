@@ -306,14 +306,14 @@
     :root {
         --nav-item-margin: 0;
     }
-  }
-  
-  .header .nav {
+    .header .nav {
     flex-direction: column;
     overflow: hidden;
     max-height: 0;
     transition: max-height .2s ease-out;
+    }
   }
+  
   /* Header
       ============================= */
   
@@ -1053,7 +1053,7 @@
   }
 
   @media screen and (min-width: 481px) and (max-width: 767px) {
-    header-logo {
+    .header-logo {
       flex-basis: 79%;
     }
   }
